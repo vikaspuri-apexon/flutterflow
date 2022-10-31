@@ -11,7 +11,7 @@
     Fore more details:
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
-  <base href="/">
+  <base href="/flutterflow/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -41,7 +41,7 @@
   <meta name="description" content="Built with FlutterFlow." />
     
 
-  <link rel="manifest" href="flutterflow/manifest.json">
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -50,7 +50,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutterflow/flutter_service_worker.js?v=6384723');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=6384723');
       });
     }
   </script>
@@ -58,6 +58,6 @@
   
   
   
-  <script src="flutterflow/main.dart.js" type="application/javascript"></script>
+  <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
