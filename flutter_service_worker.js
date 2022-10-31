@@ -39,8 +39,8 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"flutterflow/assets/AssetManifest.json",
-"flutterflow/assets/FontManifest.json"];
+"assets/AssetManifest.json",
+"assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
